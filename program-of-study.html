@@ -4,34 +4,43 @@
     <title>How to Create a New Program of Study</title>
     <meta charset="UTF-8">
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        html, body {
             margin: 0;
-            background-color: #f4f6f8;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
         }
+
         header {
             background: #24292e;
             color: white;
             padding: 20px;
             text-align: center;
         }
+
+        .iframe-container {
+            height: calc(100vh - 80px); /* subtract header height */
+        }
+
         iframe {
-            display: block;
-            margin: 20px auto;
-            width: 95%;
-            height: 800px;
+            width: 100%;
+            height: 100%;
             border: none;
         }
     </style>
 </head>
 <body>
+
     <header>
         <h1>How to Create a New Program of Study</h1>
     </header>
 
-    <iframe 
-        src="https://scribehow.com/page-embed/How_to_create_a_new_Program_of_Study__FjCgauxKSz2Yywe9LlU4Pw"
-        allow="fullscreen">
-    </iframe>
+    <div class="iframe-container">
+        <iframe 
+            src="https://scribehow.com/page-embed/How_to_create_a_new_Program_of_Study__FjCgauxKSz2Yywe9LlU4Pw"
+            allow="fullscreen">
+        </iframe>
+    </div>
+
 </body>
 </html>
