@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Create New Course in Workday</title>
+
+<style>
+html, body{
+    margin:0;
+    height:100%;
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    background:#F15A22;
+    color:white;
+    padding:18px;
+    font-size:20px;
+}
+
+.back{
+    color:white;
+    text-decoration:none;
+    margin-right:20px;
+}
+
+iframe{
+    width:100%;
+    height:100vh;
+    border:0;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<a class="back" href="index.html">← Back to Guides</a>
+Create New Course in Workday
+</div>
+
+<iframe src="https://scribehow.com/embed/Create_New_Course_in_Workday__hmyKXckBTeS-MjOw_2y0VQ?as=video"
+allow="fullscreen">
+</iframe>
+
+</body>
+</html>
